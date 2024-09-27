@@ -14,7 +14,7 @@ functionSumOfMultiplies = () => {
         }
     }
 
-    alert("Sum of multiplies of " + aVal + "and" + aVal + "below 1000 : " + sum);
+    alert("Sum of multiplies of " + aVal + " and" + bVal + " below 1000 : " + sum);
 }
 
 functionSumOfMultiplies();

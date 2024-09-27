@@ -1,11 +1,10 @@
 alert("eular.js is loaded");
 
-let a,b;
-
 functionSumOfMultiplies = () => {
 
     aVal = document.getElementById("a").value;
     bVal = document.getElementById("b").value;
+    count = document.getElementById("n").value;
 
     let sum = 0;
     for(let i = 0; i<1000; i++){
@@ -14,7 +13,7 @@ functionSumOfMultiplies = () => {
         }
     }
 
-    alert("Sum of multiplies of " + aVal + " and " + bVal + " below 1000 : " + sum);
+    alert("Sum of multiplies of " + aVal + " and " + bVal + " below " + count + " : " + sum);
 }
 
 functionSumOfMultiplies();

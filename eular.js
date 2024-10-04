@@ -17,3 +17,11 @@ functionSumOfMultiplies = () => {
 }
 
 functionSumOfMultiplies();
+
+hideResult =() => {
+    document.getElementById("lbl1").style.visibilty = "hidden";
+}
+
+showResult =() => {
+    document.getElementById("lbl1").style.visibilty = "";
+}

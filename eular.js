@@ -1,4 +1,4 @@
-alert("eular.js is loaded");
+// alert("eular.js is loaded");
 
 functionSumOfMultiplies = () => {
 
@@ -13,7 +13,10 @@ functionSumOfMultiplies = () => {
         }
     }
 
-    alert("Sum of multiplies of " + aVal + " and " + bVal + " below " + count + " : " + sum);
+    // alert("Sum of multiplies of " + aVal + " and " + bVal + " below " + count + " : " + sum);
+
+    let txt = document.getElementById("lbl1");
+    txt.innerHTML = "Sum of multiplies of " + aVal + " and " + bVal + " below " + count + " : " + sum;
 }
 
 functionSumOfMultiplies();

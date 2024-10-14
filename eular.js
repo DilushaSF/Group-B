@@ -7,7 +7,7 @@ functionSumOfMultiplies = () => {
     count = document.getElementById("n").value;
 
     let sum = 0;
-    for(let i = 0; i<1000; i++){
+    for(let i = 0; i<count; i++){
         if(i % aVal == 0 || (i % bVal == 0)){
             sum += i;
         }
